@@ -99,10 +99,6 @@ function renderLogin() {
           </div>
           <button class="btn btn-primary btn-block" type="submit" style="padding:11px">登 录</button>
         </form>
-        <div class="login-tip">
-          测试账号：<code>admin / admin123</code>（经理）<br>
-          <code>op01 / 123456</code>、<code>op02 / 123456</code>（运营商）
-        </div>
       </div>
     </div>`;
   $('#login-form').onsubmit = async (e) => {
