@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+*.db
+*.sqlite3
+.venv/
+venv/
+instance/
+
+# 环境变量
+.env
